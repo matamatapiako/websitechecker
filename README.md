@@ -1,6 +1,12 @@
 Website Checker
 ===============
 
+Overview
+--------
+
+Website Checker is a content review system for websites. A website administration team can assign various web pages across multiple sites to their organisations personel as subscribers. The subscribers will recieve regular reminders to review the content of their webpages and suggest updates should they be required.
+
+
 Installation
 ------------
 
@@ -16,7 +22,7 @@ Installation
 
 6. Install the crontab to one of your user accounts that has access to PHP (i.e. using "sudo -u <username> crontab /var/www/html/crontab")
 
-7. Browse to your webserver http://<webserver name or ip>/ and log in as the admin user (username admin, password admin)
+7. Browse to your webserver http://(webserver name or ip)/ and log in as the admin user (username admin, password admin)
 
 8. Add your first site and it's primary domain
 
